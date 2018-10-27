@@ -5,7 +5,7 @@ dados* gerador_de_dados(int quantidade){
 	srand(time(NULL));	 
 	dados *primeiro = NULL;
 	dados *atual = NULL;
-	for(int a = 0; a < 1000; a++){
+	for(int a = 0; a < 100000; a++){
 		dados *gerando = aloca_dado();
 		gerando->informacao = (1+(rand()%quantidade));
 	
