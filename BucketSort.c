@@ -1,6 +1,6 @@
 #include "dados.h"
  
- 
+/*
 struct bucket 
 {
 	int *dadosDoBucket;
@@ -76,12 +76,13 @@ void bucketSort(dados* primeiro,int quantidade)
         printf("%d \n", array[k]);   
 }
  
-int main() {
+int mainas() {
  /*	srand(time(NULL));
     int array[100];
-    for(int a = 0; a < 100; a++) array[a]=(1+rand()%300); */
+    for(int a = 0; a < 100; a++) array[a]=(1+rand()%300); *//*
 
  	int b = 1000000;
+     printf("WE");
 	dados *principal = criaaleatorio(b);
 	    	printf("%d B\n", principal->informacao);
 
@@ -90,4 +91,4 @@ int main() {
  
  
     return 0;
-}
+}*/
