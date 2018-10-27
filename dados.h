@@ -12,6 +12,7 @@ struct data {
 
 
 
+
 //FUN��ES DO GERADOR DE DADOS
 dados* gerador_de_dados(int quantidade);
 dados* aloca_dado();

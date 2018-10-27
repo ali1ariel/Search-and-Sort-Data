@@ -7,6 +7,5 @@ dados* criaaleatorio(int b){
 		printf("o dado %d esta na posicao %d\n", principal->informacao, principal->posicao);
 		principal = principal->prox;
 	}
-	
 	return primeiro;
 }
