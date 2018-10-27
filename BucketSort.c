@@ -76,15 +76,12 @@ void bucketSort(dados* primeiro,int quantidade)
 }
  
 int main() {
- /*	srand(time(NULL));
-    int array[100];
-    for(int a = 0; a < 100; a++) array[a]=(1+rand()%300); */
 
- 	int b = 1000000;
+ 	int b = 500;
 	dados *principal = criaaleatorio(b);
 	    	printf("%d B\n", principal->informacao);
 
-    bucketSort(principal, 100000); 
+    bucketSort(principal, b); 
 
  
  

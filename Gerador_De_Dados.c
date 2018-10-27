@@ -1,12 +1,12 @@
 #include "dados.h"
 
-dados* gerador_de_dados(int quantidade){
+dados* gerador_de_dados(int quantidade, int distributividade){
 	srand(time(NULL));	 
 	dados *primeiro = NULL;
 	dados *atual = NULL;
-	for(int a = 0; a < 100000; a++){
+	for(int a = 0; a < quantidade; a++){
 		dados *gerando = aloca_dado();
-		gerando->informacao = (1+(rand()%quantidade));
+		gerando->informacao = (1+(rand()%distributividade));
 	
 		if(a==0){
 			gerando->posicao = 1;
@@ -29,3 +29,4 @@ dados* aloca_dado(){
 	alocacao->prox=NULL;	
 	return alocacao;
 }
+

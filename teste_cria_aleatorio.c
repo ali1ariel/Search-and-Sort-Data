@@ -1,9 +1,10 @@
 #include "dados.h"
 
 dados* criaaleatorio(int b){
-	dados *principal = gerador_de_dados(b);
+	int c = 250000;
+	dados *principal = gerador_de_dados(b,c);
 	dados *primeiro = principal;
-	for(int a = 0; a < 100000; a++){
+	for(int a = 0; a < b; a++){
 		printf("o dado %d esta na posicao %d\n", principal->informacao, principal->posicao);
 		principal = principal->prox;
 	}

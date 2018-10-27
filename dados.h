@@ -14,7 +14,7 @@ struct data {
 
 
 //FUN��ES DO GERADOR DE DADOS
-dados* gerador_de_dados(int quantidade);
+dados* gerador_de_dados(int quantidade, int distributividade);
 dados* aloca_dado();
 dados* criaaleatorio(int b);
 
