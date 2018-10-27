@@ -1,5 +1,6 @@
 #include "dados.h"
  
+ 
 struct bucket 
 {
 	int *dadosDoBucket;

@@ -1,5 +1,6 @@
 #include "dados.h"
 
+
 dados* gerador_de_dados(int quantidade){
 	srand(time(NULL));	 
 	dados *primeiro = NULL;
